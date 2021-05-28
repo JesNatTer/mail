@@ -9,7 +9,7 @@ s.starttls()
 
 s.login(sender_email_id, password)
 
-message = "Subject: Greeting.\n""Testing python email\n"
+message = "Subject: Greeting.\n" + "Testing python email\n"
 message = message + "testing python email 2"
 
 s.sendmail(sender_email_id, receiver_email_id, message)
